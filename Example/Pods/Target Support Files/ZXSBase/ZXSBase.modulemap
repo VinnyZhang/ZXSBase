@@ -1,0 +1,6 @@
+framework module ZXSBase {
+  umbrella header "ZXSBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

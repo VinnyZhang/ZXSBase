@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F434F8620B7A110000C8849 /* ZXSBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F434F8520B7A110000C8849 /* ZXSBase.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,8 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17D705BC6D13E77C4D0054FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4F4DD14D1CA9FFB30BB2EDB2 /* ZXSBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZXSBase.podspec; path = ../ZXSBase.podspec; sourceTree = "<group>"; };
+		17D705BC6D13E77C4D0054FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4F4DD14D1CA9FFB30BB2EDB2 /* ZXSBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZXSBase.podspec; path = ../ZXSBase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F434F8520B7A110000C8849 /* ZXSBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZXSBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ZXSBase_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXSBase_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +46,7 @@
 		858F4EDBBE094BC269E87E4C /* Pods-ZXSBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXSBase_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXSBase_Tests/Pods-ZXSBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D8E2A65B37373F749E5E8232 /* Pods-ZXSBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXSBase_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXSBase_Tests/Pods-ZXSBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC8B2BF08D391001FBA10BF1 /* Pods_ZXSBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXSBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAF42497EFC47E4560032A9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EAF42497EFC47E4560032A9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F6F82D1466D3E67AA498E9A5 /* Pods_ZXSBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXSBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85091496A15F7127BE449AD /* Pods-ZXSBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXSBase_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXSBase_Example/Pods-ZXSBase_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F434F8620B7A110000C8849 /* ZXSBase.framework in Frameworks */,
 				6A11F8B783BFAFAB50863109 /* Pods_ZXSBase_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +75,7 @@
 		2E3964259877D454C35F4C9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5F434F8520B7A110000C8849 /* ZXSBase.framework */,
 				F6F82D1466D3E67AA498E9A5 /* Pods_ZXSBase_Example.framework */,
 				DC8B2BF08D391001FBA10BF1 /* Pods_ZXSBase_Tests.framework */,
 			);
@@ -212,10 +216,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JYRL84HER3;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JYRL84HER3;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -469,6 +475,7 @@
 			baseConfigurationReference = 80B1F05C3C6F5302364E28F9 /* Pods-ZXSBase_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JYRL84HER3;
 				INFOPLIST_FILE = ZXSBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +491,7 @@
 			baseConfigurationReference = F85091496A15F7127BE449AD /* Pods-ZXSBase_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JYRL84HER3;
 				INFOPLIST_FILE = ZXSBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -498,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8E2A65B37373F749E5E8232 /* Pods-ZXSBase_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JYRL84HER3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -519,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 858F4EDBBE094BC269E87E4C /* Pods-ZXSBase_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JYRL84HER3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

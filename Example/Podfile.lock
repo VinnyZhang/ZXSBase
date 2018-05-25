@@ -1,0 +1,16 @@
+PODS:
+  - ZXSBase (0.1.0)
+
+DEPENDENCIES:
+  - ZXSBase (from `../`)
+
+EXTERNAL SOURCES:
+  ZXSBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZXSBase: 3da457725f33aa1280dfcc85654ebe2a67b1e7a2
+
+PODFILE CHECKSUM: bf7b4bd450f7d85e17e0b5c4bb506302d0f8c0cf
+
+COCOAPODS: 1.5.0
